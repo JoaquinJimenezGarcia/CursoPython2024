@@ -1,0 +1,17 @@
+animal = "lIOn"
+
+print(animal[1:3])
+print(animal[1:])
+print(animal[:3])
+print(animal[::-1])
+print(animal.upper())
+print(animal.lower())
+print(animal.strip().capitalize())
+print(animal.title())
+print(animal.strip())
+print(animal.rstrip())
+print(animal.lstrip())
+print(animal.find("IO"))
+print(animal.replace("IO", "io"))
+print("IO" in animal)
+print("IO" not in animal)
